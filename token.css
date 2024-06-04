@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+section {
+  height: 200px;
+
+}
+
+/* part 1 */
+nav{
+    color: #fff;
+    
+}
+
+.nav1{
+    background-color: #241d3f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 115px;
+    padding-inline: 43px;
+
+}
+
+nav h3{
+    font-weight: bolder;
+    font-size: 2em;
+    
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+ul li{
+ margin-left: 15px;
+}
+
+ a{
+   text-decoration: none;
+   color: #fff;
+}
+
+p a{
+    background-color: #9d4edd;
+    padding: 10px 15px ;
+    display: inline-block;
+    border-radius: 5px;
+    
+}
+
+/* part 2 */
+
+aside{
+    background-image: url('image/btc2.JPG');
+    color: #fff;
+    min-height: 420px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    
+}
+.side{
+    width: 50%;
+    padding: 100px 0 25px 40px;
+}
+
+.one{
+    border-image: linear-gradient(rgba(49, 32, 5, 0.764),
+    hsla(0, 0%, 0%, 0.807));
+    border-image-slice: fill 1;
+}
+
+h1{
+    font-size: 50px;
+    line-height: 40px;
+}
+
+.side p{
+    margin: 20px 0 48px 0;
+}
+
+.side > :nth-child(1 of a){
+  background-color: #9d4edd;
+  color: #fcf7f7;
+  padding: 5px 18px;
+  border-radius: 5px;
+  margin-right: 8px;
+}
+.side > :nth-child(2 of a){
+  border: 1px solid white;
+  color: #fff;
+  padding: 5px 18px;
+  border-radius: 5px;
+  margin-left: 8px;
+}
+/* part 3 */
+footer{
+    background-color: #240046;
+    height: 80px;
+   
+    display: flex;
+
+}
+
+.raw{
+    background-color: rgba(232, 228, 236, 0.363);
+    width: fit-content;
+    min-height: 80px;
+    /* padding: 10px 10px 0 10px; */
+    border-radius: 0 20px 0 0;
+}
+
+table {
+    background-color: #240046;
+    margin: 10px 10px 0 10px;
+    padding: 0 0 0 25px;
+    border-radius: 12px;
+} 
+table, th, td{
+    color: #fff;
+}
+th{
+    font-size: 30px;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    width: 140px;
+}
+
+td{
+    text-align: center;
+}
